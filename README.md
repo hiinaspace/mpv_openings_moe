@@ -1,6 +1,6 @@
 # mpv_openings_moe.lua
 
-A Lua script for MPV that automatically plays videos from openings.moe using their API.
+A Lua script for MPV that automatically plays videos from <https://openings.moe> using their API.
 
 ## Usage
 
