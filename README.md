@@ -1,14 +1,23 @@
-# mpv_openings_moe.lua
+# mpv_{openings,animethemes}_moe.lua
 
-A Lua script for MPV that automatically plays videos from <https://openings.moe> using their API.
+A Lua script for MPV that automatically plays random videos from <https://openings.moe> or <https://animethemes.moe> using their respective APIs.
+
+I originally made the openings.moe script before I knew about animethemes.moe, but the latter seems
+to have more videos, so they're both here.
 
 ## Usage
 
-Download the script somewhere, then start MPV with the script explicitly:
+Download the scripts somewhere, then start MPV with the script explicitly:
 
-```sh
+For openings.moe:
+
    mpv --script=mpv_openings_moe.lua /dev/null
-```
+
+
+For animethemes.moe:
+
+   mpv --script=mpv_animethemes_moe.lua /dev/null
+
 
 It'll play videos continuously, with some OSD text when you get a new video.
 
