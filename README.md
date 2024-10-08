@@ -11,13 +11,15 @@ Download the scripts somewhere, then start MPV with the script explicitly:
 
 For openings.moe:
 
-   mpv --script=mpv_openings_moe.lua /dev/null
-
+```sh
+mpv --script=mpv_openings_moe.lua /dev/null
+```
 
 For animethemes.moe:
 
-   mpv --script=mpv_animethemes_moe.lua /dev/null
-
+```sh
+mpv --script=mpv_animethemes_moe.lua /dev/null
+```
 
 It'll play videos continuously, with some OSD text when you get a new video.
 
